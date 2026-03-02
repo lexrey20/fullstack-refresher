@@ -7,7 +7,7 @@
 }
 
 @keyframes scale {
-    25% {color: #0b66c3;}
+    25% {color: #ed0d0d;}
     25% {font-size: 37px;}
     50% {color: f8dd2e;}
     50% {font-size: 25px;}
@@ -34,13 +34,16 @@
 
 body {
     margin: 20px;
+    background-color: lightgray;
 }
 
 .card {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;  
+    align-items: center;
     margin: 0px auto;
-    width: 500px;
+    width: 600px;
+    height: 200px;
     background-color: #0b66c3;
     padding: 20px;
     border-radius: 20px;
@@ -49,6 +52,24 @@ body {
     color: rgb(255, 255, 255);
     /*background-image: url("../../images/linkedin.png"); Best Practice: Relative Paths*/
 }
+
+.hint-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+    width: 400px;
+    height: 50px;
+    background-color: #0b66c3;
+    padding: 20px;
+    border-radius: 20px;
+    border-bottom: 6px solid #01274d;
+    border-left: 10px solid #005cb8;
+    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    /*background-image: url("../../images/linkedin.png"); Best Practice: Relative Paths*/
+}
+
 
 .card:active h1 {
     animation-name: scale;
@@ -78,7 +99,7 @@ body {
 }
 
 .avatar { 
-    width: 150px;
+    width: 200px;
     height: 100%;
 }
 
