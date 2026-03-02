@@ -1,0 +1,19 @@
+.nav-wrapper {
+    display: flex;
+    justify-content: center; /* space-around */
+}
+
+.item {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+.best-wrapper {
+    display: flex;
+}
+
+.left, .right {
+    margin: 0px 10px;
+}
