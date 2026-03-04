@@ -1,6 +1,42 @@
+body {
+    background-color: #bfbdc1;
+    margin: 0;
+}
+
+.main {
+    margin: 20px;
+}
+
+.card {
+    border: 5px solid black;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: #de9e36;
+}
+
+.logo {
+    width: 160px;
+    height: 130px;
+    object-fit: cover;
+    object-position: top;    /* crops bottom */
+    object-position: bottom; /* crops top    */
+}
+
+.buy-btn {
+    display: block;
+    margin: auto auto;
+    background-color: #deb841;
+    border: 3px solid #37323e;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 .nav-wrapper {
     display: flex;
     justify-content: center; /* space-around */
+    background-color: #6d6a75;
+    height: 100px;
+
 }
 
 .item {

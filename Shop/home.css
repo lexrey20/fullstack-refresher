@@ -1,0 +1,46 @@
+@font-face {
+    src: url("ManlineSlabs.ttf");
+    font-family: ManlineSlabs;
+}
+
+body {
+    margin: 0px;
+    background-image: url("./images/shopbackground.gif");
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    text-shadow:  2px 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.roboto-slab-titlefont {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body h1 {
+    margin: 50px;
+}
+
+.logo {
+    width: 200px;
+    height: 160px;
+    object-fit: cover;
+    object-position: top; /* crops bottom */
+}
+
+.enter-btn {
+    background-color: rgb(255, 196, 79);
+    border: 1px solid black;
+    border-radius: 25px;
+    color: white;
+    text-shadow:  2px 2px black;
+    font-size: 30px;
+    padding: 10px 30px;
+    font-family: ManlineSlabs;
+}
