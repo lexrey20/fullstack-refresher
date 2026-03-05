@@ -3,12 +3,6 @@
     font-family: ManlineSlabs;
 }
 
-.terms {
-    text-shadow: none;
-    color: black;
-    font-size: 20px;
-}
-
 #hero {
     background-image: url("../images/shopbackground.webp");
     background-size: cover;
@@ -65,4 +59,11 @@ body h1 {
     padding: 10px 30px;
     font-family: ManlineSlabs;
     margin: 20px;
+}
+
+.terms {
+    text-shadow: none;
+    color: black;
+    font-size: 20px;
+    font-family: "Roboto Slab";
 }
