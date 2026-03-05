@@ -20,7 +20,7 @@ body {
     background-color: #fcca46;
 }
 
-.logo {
+#logo {
     width: 160px;
     height: 130px;
     object-fit: cover;
